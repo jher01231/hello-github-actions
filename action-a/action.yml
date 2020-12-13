@@ -25,3 +25,6 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
+
+# Triggered when code is pushed to any branch in a repository
+on: push
